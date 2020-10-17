@@ -1,5 +1,5 @@
-#  Ejercicio 81
-##  Imprimir las ecuaciones de las lineas paralelas y perpendiculares a la linea representada por 6x-18y=36, que pasa por el punto(-6,-2).
+#  Ejercicio 82
+##  Determinar la ecuacion de la recta que pasa por los puntos  (0,-2) y (-68,-15).
 
 #include < iostream >
 
