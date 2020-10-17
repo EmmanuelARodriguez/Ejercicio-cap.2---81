@@ -1,0 +1,17 @@
+#  Ejercicio 81
+##  Imprimir las ecuaciones de las lineas paralelas y perpendiculares a la linea representada por 6x-18y=36, que pasa por el punto(-6,-2).
+
+#include < iostream >
+
+int main() {
+
+      double x1=0, x2=-68, y1=-2, y2=-15;
+			double m;
+			std::cout << "x1: "<<x1<<"\n";
+			std::cout << "y1: "<<y1<<"\n";
+			std::cout << "x2: "<<x2<<"\n";
+			std::cout << "y2: "<<y2<<"\n";
+			m = (y2 - y1) / (x2 - x1);
+			std::cout << "La ecuacion es: " << m << "X - Y + " << ((m * x1) + y1) << std::endl;
+    return 0;
+}
